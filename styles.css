@@ -1,0 +1,94 @@
+/* body {
+    background-image: url(santa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(207, 68, 68);
+} */
+body {
+    margin: 0;
+    background-color: rgb(207, 68, 68);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 20px;
+    border: solid black 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boxinside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    
+}
+.box {
+    background-color: rgba(251, 248, 249, 0.9);
+    width: 200px;
+    height: 300px;
+    border: solid black 3px;    
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.red {
+    font-family: 'Staatliches', cursive;
+    color: red;
+    border: none;
+    font-size: 60px;
+}
+
+#playbutton {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+img {
+    padding: 20px;
+}
+
+
+
+
+
+#particles-js {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(santa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 40%;
+    z-index: -10;
+    background-color: rgb(207, 68, 68);
+  }
+
+
+@media all and (max-width:800px){
+    h1, .red {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+@media all and (max-width:500px){
+    h2 {
+        font-size: 25px;
+    }
+}
